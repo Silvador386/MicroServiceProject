@@ -4,15 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordering/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Prep for project merge, added dependencies.">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/Silvador386/inventory/InventoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/Silvador386/inventory/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/Silvador386/inventory/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/Silvador386/inventory/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/com/Silvador386/inventory/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/test/java/com/Silvador386/inventory/InventoryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/OrderingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/model/OrderLineItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordering/src/test/java/com/Silvador386/ordering/OrderingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/Silvador386/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/test/java/com/Silvador386/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +60,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "D:/Programming/Intellij/MicroServiceProject/inventory",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Intellij\MicroServiceProject\inventory" />
+      <recent name="D:\Programming\Intellij\MicroServiceProject\ordering" />
+      <recent name="D:\Programming\Intellij\MicroServiceProject\product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductServiceApplicationTests">
+    <configuration name="ProductServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Silvador386.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Silvador386.productservice" />
+      <option name="MAIN_CLASS_NAME" value="com.Silvador386.productservice.ProductServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Silvador386.productservice.ProductServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Silvador386.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceApplicationTests" />
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,11 +129,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675444964784</updated>
-      <workItem from="1675444966873" duration="733000" />
+      <workItem from="1675444966873" duration="1085000" />
     </task>
+    <task id="LOCAL-00001" summary="Prep for project merge, added dependencies.">
+      <created>1675445730736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675445730736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prep for project merge, added dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prep for project merge, added dependencies." />
   </component>
 </project>
