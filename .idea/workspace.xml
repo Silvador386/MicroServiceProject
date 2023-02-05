@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Added a discovery server for communication between multiple inventory severs.">
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/Silvador386/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Added api gateway for the applications, 181 mins.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +169,7 @@
       <updated>1675444964784</updated>
       <workItem from="1675444966873" duration="5800000" />
       <workItem from="1675496999963" duration="1301000" />
-      <workItem from="1675620968032" duration="9456000" />
+      <workItem from="1675620968032" duration="10153000" />
     </task>
     <task id="LOCAL-00001" summary="Prep for project merge, added dependencies.">
       <created>1675445730736</created>
@@ -211,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675627165426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added api gateway for the applications, 181 mins.">
+      <created>1675630657436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675630657436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +225,7 @@
     <MESSAGE value="Added communication between ordering and inventory services, 120 mins." />
     <MESSAGE value="Repaired wiring - wrong names caused empty order that resulted in allInStock to be true." />
     <MESSAGE value="Added a discovery server for communication between multiple inventory severs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a discovery server for communication between multiple inventory severs." />
+    <MESSAGE value="Added api gateway for the applications, 181 mins." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added api gateway for the applications, 181 mins." />
   </component>
 </project>
