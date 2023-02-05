@@ -20,6 +20,7 @@
         <module>inventory</module>
         <module>ordering</module>
         <module>discovery_server</module>
+        <module>gateway</module>
     </modules>
 
     <properties>

@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Repaired wiring - wrong names caused empty order that resulted in allInStock to be true.">
-      <change afterPath="$PROJECT_DIR$/discovery_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery_server/src/main/java/com/Silvador386/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery_server/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Added a discovery server for communication between multiple inventory severs.">
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/Silvador386/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordering/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/config/WebClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordering/src/main/java/com/Silvador386/ordering/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordering/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordering/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +68,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Intellij\MicroServiceProject\inventory" />
@@ -90,7 +86,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryApplication">
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
     <configuration name="ProductServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product" />
       <extension name="coverage">
@@ -115,6 +111,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Silvador386.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,7 +174,7 @@
       <updated>1675444964784</updated>
       <workItem from="1675444966873" duration="5800000" />
       <workItem from="1675496999963" duration="1301000" />
-      <workItem from="1675620968032" duration="5998000" />
+      <workItem from="1675620968032" duration="9456000" />
     </task>
     <task id="LOCAL-00001" summary="Prep for project merge, added dependencies.">
       <created>1675445730736</created>
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675622773402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a discovery server for communication between multiple inventory severs.">
+      <created>1675627165426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675627165426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +222,7 @@
     <MESSAGE value="Merged projects, build success, 92 mins." />
     <MESSAGE value="Added communication between ordering and inventory services, 120 mins." />
     <MESSAGE value="Repaired wiring - wrong names caused empty order that resulted in allInStock to be true." />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaired wiring - wrong names caused empty order that resulted in allInStock to be true." />
+    <MESSAGE value="Added a discovery server for communication between multiple inventory severs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a discovery server for communication between multiple inventory severs." />
   </component>
 </project>
