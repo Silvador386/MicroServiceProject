@@ -18,11 +18,11 @@ public class InventoryApplication {
 	public CommandLineRunner loadData(InventoryRepository inventoryRepository){
 		return args -> {
 			Inventory firstInventory = new Inventory();
-			firstInventory.setSkuCode("Samsung Galaxy");
+			firstInventory.setSkuCode("samsung_galaxy");
 			firstInventory.setQuantity(128);
 
 			Inventory secondInventory = new Inventory();
-			secondInventory.setSkuCode("Samsung Universe");
+			secondInventory.setSkuCode("samsung_universe");
 			secondInventory.setQuantity(0);
 
 			inventoryRepository.save(firstInventory);
