@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Added api gateway for the applications, 181 mins.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="cdb687c9-d7db-41b1-8f8b-b31c4e29a687" name="Changes" comment="Created readme.">
+      <change afterPath="$PROJECT_DIR$/discovery_server/src/main/java/com/Silvador386/discoveryserver/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/Silvador386/gateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordering/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordering/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "eaa12b1339dfed9354617727f9f71a30",
+    "spring.configuration.checksum": "e834221c2c105a80ffba1c3138eaaffe",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +90,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderingApplication">
     <configuration name="ProductServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="product" />
       <extension name="coverage">
@@ -152,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.InventoryApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.InventoryApplication" />
         <item itemvalue="Spring Boot.DiscoveryServerApplication" />
         <item itemvalue="JUnit.ProductServiceApplicationTests" />
       </list>
@@ -169,7 +178,8 @@
       <updated>1675444964784</updated>
       <workItem from="1675444966873" duration="5800000" />
       <workItem from="1675496999963" duration="1301000" />
-      <workItem from="1675620968032" duration="10153000" />
+      <workItem from="1675620968032" duration="10982000" />
+      <workItem from="1675685324811" duration="6419000" />
     </task>
     <task id="LOCAL-00001" summary="Prep for project merge, added dependencies.">
       <created>1675445730736</created>
@@ -213,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675630657436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created readme.">
+      <created>1675631326638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675631326638</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +243,7 @@
     <MESSAGE value="Repaired wiring - wrong names caused empty order that resulted in allInStock to be true." />
     <MESSAGE value="Added a discovery server for communication between multiple inventory severs." />
     <MESSAGE value="Added api gateway for the applications, 181 mins." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added api gateway for the applications, 181 mins." />
+    <MESSAGE value="Created readme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created readme." />
   </component>
 </project>

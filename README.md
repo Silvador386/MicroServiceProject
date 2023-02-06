@@ -4,3 +4,5 @@
 * The main goal is to try out several web application architectures using Spring Boot and Spring Cloud.
 * Each module contains a different application. The current architecture consist of an api gateway connected to a 
   discovery server, which communicates with order and inventory services (MySQL databases). 
+
+* Used technologies: Java, Spring Boot, Spring Cloud, MongoDB, MySQL, Docker, KeyCloak
