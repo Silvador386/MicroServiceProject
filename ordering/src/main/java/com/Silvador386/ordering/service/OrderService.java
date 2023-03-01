@@ -3,10 +3,12 @@ package com.Silvador386.ordering.service;
 import com.Silvador386.ordering.dto.InventoryResponse;
 import com.Silvador386.ordering.dto.OrderLineItemsDto;
 import com.Silvador386.ordering.dto.OrderRequest;
+import com.Silvador386.ordering.event.OrderPlacedEvent;
 import com.Silvador386.ordering.model.Order;
 import com.Silvador386.ordering.model.OrderLineItems;
 import com.Silvador386.ordering.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -22,6 +24,7 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
     private final WebClient.Builder webClientBuilder;
+    private final KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
     public String placeOrder(OrderRequest orderRequest){
         Order order = new Order();
@@ -54,6 +57,7 @@ public class OrderService {
 
         if(allInStock){
            orderRepository.save(order);
+           kafkaTemplate.send("notificationTopic", new OrderPlacedEvent(order.getOrderNumber()));
            return "Order Has Been Placed Successfully!";
         } else {
             throw new IllegalArgumentException("Product is currently out of stock!");

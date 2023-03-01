@@ -21,6 +21,7 @@
         <module>ordering</module>
         <module>discovery_server</module>
         <module>gateway</module>
+        <module>notifications</module>
     </modules>
 
     <properties>
